@@ -1,0 +1,20 @@
+<settings>
+
+ <servers>
+    <server>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>password</password>
+    </server>
+  </servers>
+
+  <mirrors>
+    <mirror>
+      <id>other-mirror</id>
+      <name>Other Mirror Repository</name>
+      <url>http://34.131.83.220:8081/repository/maven-group-repo/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+  </mirrors>
+
+</settings>
